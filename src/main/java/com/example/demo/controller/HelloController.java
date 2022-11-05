@@ -11,6 +11,6 @@ public class HelloController {
     @GetMapping("")
     public String index(){
         System.out.println("hello");
-        return "OK";
+        return "OK2";
     }
 }
